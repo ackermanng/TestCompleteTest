@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{83C7B508-EF2D-4E2A-9486-DBA645CF3B7E}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45378.5713310185" objectName="Aliases.browser.pageGoogle.formSearch.vg" objectLeft="486" objectTop="271" objectRight="506" objectBottom="291" clickPointX="501" clickPointY="275" imageFileName="tcvi-2062789734310600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45378.5713425926" objectName="Aliases.browser.pageGoogle.formSearch.textareaSuche" objectLeft="519" objectTop="269" objectRight="962" objectBottom="296" clickPointX="525" clickPointY="276" imageFileName="tcvi-2062788734310601.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45378.5713657407" objectName="Aliases.browser.pageGoogle.formSearch.textareaSuche" objectLeft="519" objectTop="269" objectRight="962" objectBottom="296" clickPointX="-1" clickPointY="-57" imageFileName="tcvi-2062787265310602.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45378.5714351852" objectName="Aliases.browser.pageSearch.formTsf.textnode" objectLeft="709" objectTop="121" objectRight="723" objectBottom="135" clickPointX="714" clickPointY="125" imageFileName="tcvi-2062780875310604.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45378.5714467593" objectName="Aliases.browser.pageSearch.panelSlimAppbar" objectLeft="202" objectTop="224" objectRight="1513" objectBottom="267" clickPointX="1048" clickPointY="236" imageFileName="tcvi-2062779765310605.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

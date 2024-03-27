@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{7E88AF5A-9AEB-4100-9FC4-3C0CE8498278}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{BE1BC495-DE2A-4CFD-A71A-675DE89CB394}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageGoogleSearch" Key="{4A363906-A43C-40A2-AF8A-A63564C71A0C}">
+								<Image FileName="806983346" Left="12" Top="128" Right="1528" Bottom="653" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bing.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonBnpBtnReject" Key="{D83BA0C0-F82D-4D9D-A14E-61D90D7AF258}">
+										<Image FileName="806983346" Left="1133" Top="558" Right="1280" Bottom="598" />
+										<TypeInfo Item0="{DCBBD317-1C19-4598-9DA1-42202180C25D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#bnp_btn_reject" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Reject&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;bnp_btn_reject&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formUaform" Key="{8DABF80D-33EE-400D-9CC1-3997327033DF}">
+										<Image FileName="-1709002542" Left="193" Top="293" Right="839" Bottom="331" />
+										<Selectors>
+											<Selector>
+												<Value Value="#uaForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;uaForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;uncon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sbBoxCnt&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUaseabox" Key="{4530B92A-DFE5-469D-B366-3BCDD7D79378}">
+										<Image FileName="-1709002542" Left="203" Top="294" Right="755" Bottom="338" />
+										<TypeInfo Item0="{388A40F8-756F-48CD-ABB7-ABA24916100C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#uaseabox" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;query&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ctxt&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBResults" Key="{737F72F2-8A1C-4FB7-8328-D58D7B297204}">
+										<Image FileName="311852502" Left="172" Top="381" Right="820" Bottom="3808" />
+										<Selectors>
+											<Selector>
+												<Value Value="#b_results" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(., &apos;Google&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main/ol" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGoogle" Key="{3CFCA308-E2DF-478D-8C31-DC34CE6E796B}">
+										<Image FileName="311852502" Left="172" Top="381" Right="820" Bottom="799" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Google&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGoogle2" Key="{3D52EF87-6BDA-44AF-BE15-4B837A8ED4AF}">
+										<Image FileName="311852502" Left="192" Top="433" Right="800" Bottom="462" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Google&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;b_topTitle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGoogle" Key="{70A9D4C5-9C69-41DD-90DE-158B11B9E3B9}">
+										<Image FileName="311852502" Left="192" Top="432" Right="268" Bottom="461" />
+										<TypeInfo Item0="{53370A16-8481-4FC5-AB39-4464DA8230DF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Google&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[@id=&apos;b_results&apos;]//h2/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{237711B1-7115-4A50-9282-8B9FA7A94F05}">
+								<Image FileName="-1709002542" Left="0" Top="0" Right="1580" Bottom="665" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageGoogle" Key="{DA330C85-2F61-44F9-860E-2B0DB1CE3CB6}">
+								<Image FileName="-2142689526" Left="12" Top="128" Right="1528" Bottom="653" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.de/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonW0wltc" Key="{99F5CC90-C96F-4B32-9370-7D41D528D37A}">
+										<Image FileName="-2142689526" Left="524" Top="517" Right="755" Bottom="565" />
+										<TypeInfo Item0="{DCBBD317-1C19-4598-9DA1-42202180C25D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#W0wltc" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Alle ablehnen&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearch" Key="{B69C792D-AD21-4603-9453-AF53895F7D06}">
+										<Image FileName="1895319456" Left="32" Top="300" Right="1508" Bottom="442" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaSuche" Key="{4FE8DFBA-D813-4D06-969F-3F95C3085E99}">
+										<Image FileName="1895319456" Left="526" Top="318" Right="969" Bottom="345" />
+										<TypeInfo Item0="{53370A16-8481-4FC5-AB39-4464DA8230DF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#APjFqb" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@aria-label=&apos;Suche&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@title=&apos;Suche&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;gLFyf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{3104F612-47E5-4B87-B3FB-43FBF0C79D1E}">
+										<Image FileName="221921735" Left="486" Top="271" Right="506" Bottom="291" />
+										<TypeInfo Item0="{53370A16-8481-4FC5-AB39-4464DA8230DF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]//div//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch" Key="{2194214D-2B29-411E-B9DB-48D9D0B8403C}">
+								<TypeInfo Item0="{AA2235D3-5FE5-4277-9880-CAB642C158A2}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.google.de/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formTsf" Key="{77F7FC50-D06F-4016-82A1-59F8A2EBAC16}">
+										<Image FileName="-651195908" Left="12" Top="105" Right="854" Bottom="151" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tsf" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;f&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;reise&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;tsf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{26993C93-DD44-4B52-BEC8-71572388E67D}">
+										<Image FileName="-651195908" Left="709" Top="121" Right="723" Bottom="135" />
+										<TypeInfo Item0="{53370A16-8481-4FC5-AB39-4464DA8230DF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@id=&apos;tsf&apos;]//div/div[3]/div//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[3]/div//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSlimAppbar" Key="{37B44558-41B1-43B7-A283-14BAAA6B5AC1}">
+										<Image FileName="-721823157" Left="202" Top="224" Right="1513" Bottom="267" />
+										<TypeInfo Item0="{53370A16-8481-4FC5-AB39-4464DA8230DF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#slim_appbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;WE0UJf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="win32calc" Key="{290EB7FD-FEFD-4003-9BDD-6FAAC3486C67}">
+						<TypeInfo Item0="{63E1C193-2A5D-4B64-8B25-35EBB09A086D}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="win32calc" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCalculator" Key="{88A42290-2DE7-424A-A591-34629AAD3036}">
+								<Image FileName="-902757601" Left="0" Top="0" Right="228" Bottom="323" />
+								<TypeInfo Item0="{32F06430-0BEB-4F63-803A-37CFE932A900}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CalcFrame" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Calculator" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="CalcFrame" Key="{87EC3473-30A8-48A6-BE36-A833B0DA0F24}">
+										<Image FileName="-902757601" Left="8" Top="51" Right="220" Bottom="315" />
+										<TypeInfo Item0="{6C6AEA15-D43E-4B83-AD86-9675A5EC8A80}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="CalcFrame" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="page32770" Key="{5C5EDDC4-10FD-4605-BD78-683B426C34C5}">
+												<Image FileName="-902757601" Left="19" Top="61" Right="209" Bottom="111" />
+												<TypeInfo Item0="{6C6AEA15-D43E-4B83-AD86-9675A5EC8A80}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="#32770" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Item" Key="{30A7A0D2-E820-4551-8EA0-E069BA6F5F55}">
+														<Image FileName="-902757601" Left="37" Top="76" Right="204" Bottom="104" />
+														<TypeInfo Item0="{6C6AEA15-D43E-4B83-AD86-9675A5EC8A80}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Static" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="42" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="page327702" Key="{2F4480FC-38B4-4AB9-8654-04E69C00A302}">
+												<Image FileName="-59528278" Left="19" Top="116" Right="209" Bottom="307" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="#32770" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btn" Key="{CA4E52F9-F681-4E4C-80D2-4472A35D677D}">
+														<Image FileName="-59528278" Left="19" Top="180" Right="53" Bottom="207" />
+														<TypeInfo Item0="{56A7B272-CE7A-498F-9C91-01F7533DD19E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn2" Key="{4B00429E-642E-4286-BD35-B698FC34454A}">
+														<Image FileName="-634467382" Left="136" Top="212" Right="170" Bottom="239" />
+														<TypeInfo Item0="{56A7B272-CE7A-498F-9C91-01F7533DD19E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="21" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn3" Key="{45174F06-9C57-443A-94EA-4576CF9053EF}">
+														<Image FileName="-960148068" Left="97" Top="212" Right="131" Bottom="239" />
+														<TypeInfo Item0="{56A7B272-CE7A-498F-9C91-01F7533DD19E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="15" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn4" Key="{E9D52FAE-0132-4D6C-B036-CCE1DDFF8B68}">
+														<Image FileName="-946745338" Left="175" Top="244" Right="209" Bottom="303" />
+														<TypeInfo Item0="{56A7B272-CE7A-498F-9C91-01F7533DD19E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="28" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn5" Key="{963F73B5-6812-441E-9E0B-FFD1339350DB}">
+														<Image FileName="-1389362236" Left="58" Top="148" Right="92" Bottom="175" />
+														<TypeInfo Item0="{56A7B272-CE7A-498F-9C91-01F7533DD19E}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="8" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{BE1BC495-DE2A-4CFD-A71A-675DE89CB394}">
+			<Child Name="pageGoogleSearch" Owner="{4A363906-A43C-40A2-AF8A-A63564C71A0C}">
+				<Child Name="buttonBnpBtnReject" Owner="{D83BA0C0-F82D-4D9D-A14E-61D90D7AF258}" />
+				<Child Name="formUaform" Owner="{8DABF80D-33EE-400D-9CC1-3997327033DF}">
+					<Child Name="textboxUaseabox" Owner="{4530B92A-DFE5-469D-B366-3BCDD7D79378}" />
+				</Child>
+				<Child Name="textnodeBResults" Owner="{737F72F2-8A1C-4FB7-8328-D58D7B297204}">
+					<Child Name="textnodeGoogle" Owner="{3CFCA308-E2DF-478D-8C31-DC34CE6E796B}">
+						<Child Name="textnodeGoogle2" Owner="{3D52EF87-6BDA-44AF-BE15-4B837A8ED4AF}">
+							<Child Name="linkGoogle" Owner="{70A9D4C5-9C69-41DD-90DE-158B11B9E3B9}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{237711B1-7115-4A50-9282-8B9FA7A94F05}" />
+			<Child Name="pageGoogle" Owner="{DA330C85-2F61-44F9-860E-2B0DB1CE3CB6}">
+				<Child Name="buttonW0wltc" Owner="{99F5CC90-C96F-4B32-9370-7D41D528D37A}" />
+				<Child Name="formSearch" Owner="{B69C792D-AD21-4603-9453-AF53895F7D06}">
+					<Child Name="textareaSuche" Owner="{4FE8DFBA-D813-4D06-969F-3F95C3085E99}" />
+					<Child Name="vg" Owner="{3104F612-47E5-4B87-B3FB-43FBF0C79D1E}" />
+				</Child>
+			</Child>
+			<Child Name="pageSearch" Owner="{2194214D-2B29-411E-B9DB-48D9D0B8403C}">
+				<Child Name="formTsf" Owner="{77F7FC50-D06F-4016-82A1-59F8A2EBAC16}">
+					<Child Name="textnode" Owner="{26993C93-DD44-4B52-BEC8-71572388E67D}" />
+				</Child>
+				<Child Name="panelSlimAppbar" Owner="{37B44558-41B1-43B7-A283-14BAAA6B5AC1}" />
+			</Child>
+		</Child>
+		<Child Name="win32calc" Owner="{290EB7FD-FEFD-4003-9BDD-6FAAC3486C67}">
+			<Child Name="wndCalculator" Owner="{88A42290-2DE7-424A-A591-34629AAD3036}">
+				<Child Name="CalcFrame" Owner="{87EC3473-30A8-48A6-BE36-A833B0DA0F24}">
+					<Child Name="page32770" Owner="{5C5EDDC4-10FD-4605-BD78-683B426C34C5}">
+						<Child Name="Item" Owner="{30A7A0D2-E820-4551-8EA0-E069BA6F5F55}" />
+					</Child>
+					<Child Name="page327702" Owner="{2F4480FC-38B4-4AB9-8654-04E69C00A302}">
+						<Child Name="btn" Owner="{CA4E52F9-F681-4E4C-80D2-4472A35D677D}" />
+						<Child Name="btn2" Owner="{4B00429E-642E-4286-BD35-B698FC34454A}" />
+						<Child Name="btn3" Owner="{45174F06-9C57-443A-94EA-4576CF9053EF}" />
+						<Child Name="btn4" Owner="{E9D52FAE-0132-4D6C-B036-CCE1DDFF8B68}" />
+						<Child Name="btn5" Owner="{963F73B5-6812-441E-9E0B-FFD1339350DB}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
